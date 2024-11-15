@@ -13,4 +13,6 @@ Folgendes möchte ich einbauen:
 # Dokumentation
 
 ### 15.11.2024
-Projekt Start!!!
+Projekt Start!!! Heute habe ich mit diesem kleinen Projekt begonnen, das mir als Zusammenfassung dienen soll, damit ich mir selbst beweisen kann, dass ich JavaScript einigermaßen beherrsche. Zuerst habe ich ohne JS angefangen. Also habe ich heute zuerst das Design und die Struktur gebaut. Dann habe ich heute Abend noch ein paar Selektoren eingebaut, welche ich dann für die Funktion `AddTask();` verwenden muss.
+
+---
