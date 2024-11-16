@@ -26,6 +26,9 @@ function AddTask() {
     let taskDesc = document.createElement("td");
     let taskIsDone = document.createElement("td");
 
+    let delTask = document.createElement('td');
+
+    newTask.setAttribute('id', CurrentTaskId);
     taskID.innerText = CurrentTaskId;
     taskName.innerText = AddTaskNameValue;
     taskDesc.innerText = AddTaskDescValue;
@@ -36,14 +39,24 @@ function AddTask() {
       taskIsDone.innerHTML = `<input type="checkbox">`;
     }
 
+    delTask.innerHTML = `<button onclick="DelTask(${CurrentTaskId});" >Del</button>`
+
     newTask.appendChild(taskID);
     newTask.appendChild(taskName);
     newTask.appendChild(taskDesc);
     newTask.appendChild(taskIsDone);
+    newTask.appendChild(delTask);
     TaskList.appendChild(newTask);
 
     CurrentTaskId++;
   } else {
     alert(ErrorMessage);
   }
+}
+
+function DelTask(taskID) {
+
+    let deleteTask = document.getElementById(taskID);
+    deleteTask.remove();
+
 }
