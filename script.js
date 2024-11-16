@@ -55,8 +55,6 @@ function AddTask() {
 }
 
 function DelTask(taskID) {
-
     let deleteTask = document.getElementById(taskID);
     deleteTask.remove();
-
 }
