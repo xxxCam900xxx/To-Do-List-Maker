@@ -53,10 +53,6 @@ body {
     background-color: white;
 }
 
-#List table tr {
-    width: 100%;
-}
-
 #List table th {
     font-size: 1.5rem;
     text-align: start;
