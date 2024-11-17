@@ -45,7 +45,7 @@ function DelTask(taskID) {
 ---
 
 ### 17.11.2024
-Heute habe ich mir die Zeit genommen um die Funktion `ChangeTask(taskID)` einzubauen. Zuerst musste ich die Funktion `AddTask()` so umbauen, dass die Task, die ich erstelle, intern einen Datenplatzhalter bekommt, um dann mit dem Select besser auf die Werte zugreifen zu können. Das war gar nicht so schwer einzubauen. Hat nur etwas Zeit gekostet das alles zu codieren.
+Heute habe ich mir die Zeit genommen um die Funktion `ChangeTask(taskID)` einzubauen. Zuerst musste ich die Funktion `AddTask()` so umbauen, dass die Task, die ich erstelle, intern einen Datenplatzhalter bekommt, um dann mit dem Select besser auf die Werte zugreifen zu können. Das war gar nicht so schwer einzubauen. Hat nur etwas Zeit gekostet das alles zu codieren. Dazu habe ich noch ErrorHandling eingebaut. Das habe ich auch bei ``AddTask`` verwendet.
 
 Die letzte Aufgabe wird sein, alle ausgewählten Aufgaben zu löschen. Danach werde ich sehen, ob ich den gesamten Code refaktorieren kann, um einen schönen CodeBlock zu erhalten.
 
